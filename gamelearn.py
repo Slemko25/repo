@@ -1,2 +1,2 @@
-number = input('Write your number', ) 
+number = input('Write your number,') 
 print(number)
