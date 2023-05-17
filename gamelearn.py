@@ -1,2 +1,5 @@
-number = input('Write your number\n') 
-print(number)
+import hashlib
+hashlib.sha3_224(b”crypto101”).hexdigest()
+hashlib.sha3_256(b”crypto101”).hexdigest()
+hashlib.sha3_384(b”crypto101”).hexdigest()
+hashlib.sha3_512(b”crypto101”).hexdigest()
