@@ -1,5 +1,9 @@
-import hashlib
-hashlib.sha3_224(b”crypto101”).hexdigest()
-hashlib.sha3_256(b”crypto101”).hexdigest()
-hashlib.sha3_384(b”crypto101”).hexdigest()
-hashlib.sha3_512(b”crypto101”).hexdigest()
+y = 5
+x = int(input ('Input your number,\n'))
+
+if x < y:
+    print('x is less than y')
+elif x > y:
+    print('x is greater than y')
+else:
+    print('x and y are equal')
