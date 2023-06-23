@@ -1,5 +1,8 @@
-y = 5
-x = int(input ('Input your number,\n'))
+import random
+
+y = 0
+for i in range(10):
+    x = random.random()
 
 if x < y:
     print('x is less than y')
