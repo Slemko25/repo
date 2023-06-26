@@ -10,9 +10,11 @@ count = 0
 
 for line in fhand :
     line = line.rstrip()
-    if line.find(word) and line.startswith('From') == -1 : continue
+    if line.find(word) == -1 : continue
+    
+    if not line.startswith('Received'): continue
     count = count + 1
-    print(line)
+    print (line)
     
     
 print('Income messeges from', word, 'is', count)
