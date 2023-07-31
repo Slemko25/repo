@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Form</title>
+    <link rel="stylesheet" href="style.css">
+         
+</head>
+<body>
+    <h1 id="inp">Input Form</h1>
+    <div>
+    <form action="/pgdb.py" method="post">
+        <label for="name" title="Name">Name:</label>
+        <input type="text" id="name" class="main" name="name" required><br><br>
+
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" class="main" name="surname" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" class="main" name="dob" required><br><br>
+
+        <label for="city">City of Living:</label>
+        <input type="text" id="city" class="main" name="city" required><br><br>
+
+        <label for="country">Country of Residency:</label>
+        <input type="text" id="country" class="main" name="country" required><br><br>
+
+        <input type="submit" id="main_bt" value="Submit">
+    </form>
+    </div>
+</body>
+</html>
