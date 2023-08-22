@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Input Form</title>
+    <script src="/pgdb.py"></script>
     <link rel="stylesheet" href="style.css">
          
 </head>
@@ -9,22 +10,29 @@
     <h1 id="inp">Input Form</h1>
     <div>
     <form action="/pgdb.py" method="post">
-        <label for="name" title="Name">Name:</label>
-        <input type="text" id="name" class="main" name="name" required><br><br>
-
-        <label for="surname">Surname:</label>
-        <input type="text" id="surname" class="main" name="surname" required><br><br>
-
-        <label for="dob">Date of Birth:</label>
-        <input type="date" id="dob" class="main" name="dob" required><br><br>
-
-        <label for="city">City of Living:</label>
-        <input type="text" id="city" class="main" name="city" required><br><br>
-
-        <label for="country">Country of Residency:</label>
-        <input type="text" id="country" class="main" name="country" required><br><br>
-
-        <input type="submit" id="main_bt" value="Submit">
+        <div id="nam">
+            <label for="name" title="Name">Name:</label>
+            <input type="text" id="name" class="main" name="name" required><br>
+        </div>
+        <div id="surnam">
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" class="main" name="surname" required><br>
+        </div>
+        <div id="db">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" class="main" name="dob" required><br>
+        </div>
+        <div id="cit">
+            <label for="city">City of Living:</label>
+            <input type="text" id="city" class="main" name="city" required><br>
+        </div>
+        <div id="countr">
+            <label for="country">Country of Residency:</label>
+            <input type="text" id="country" class="main" name="country" required><br>
+        </div>
+        <div id="sub">
+            <input type="submit" id="main_bt" value="Submit">
+        </div>
     </form>
     </div>
 </body>

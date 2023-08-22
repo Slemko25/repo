@@ -10,8 +10,8 @@ def f_c (fruit, letter) :
 
 f_c(fruit, letter)
 
-word = 'word'
-print('This,' + word +  ',is your')
+
+print('This,' + fruit +  ',is your')
 
     
 

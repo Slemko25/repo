@@ -6,6 +6,7 @@ for b in 'Write name of the file: ':
     
 op = input()
 with open(op, 'r+') as o:
+    print(o)
 
 
     for i in o:

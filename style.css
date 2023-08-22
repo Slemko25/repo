@@ -23,17 +23,11 @@
   align-self: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   vertical-align: middle;
-  display: flex;
+  
   background-color: rgba(4, 250, 238, 0.384);
 
  }
- div{
-  margin:auto;
-  position: absolute;
-  top: 10%; left: 44%;
-  border-radius: 0.5rem;
-  color: rgb(0, 255, 242);
- }
+ 
 
  body{
   background-image: url(pic.jpg);
@@ -56,3 +50,43 @@
  #country{
   border-radius: 0.5rem;
  }
+ #nam{
+  margin:auto;
+  position: initial;
+  top: 10%; left: 44%;
+  border-radius: 0.5rem;
+  color: rgb(0, 255, 242);
+  
+ }
+#surnam{
+  margin:auto;
+  position: initial;
+  top: 20%; left: 44%;
+  border-radius: 0.5rem;
+  color: rgb(0, 255, 242);
+  
+}  
+#db{
+  margin:auto;
+  position: initial;
+  top: 10%; left: 44%;
+  border-radius: 0.5rem;
+  color: rgb(0, 255, 242);
+  
+}
+#cit{
+  margin:auto;
+  position: initial;
+  top: 10%; left: 44%;
+  border-radius: 0.5rem;
+  color: rgb(0, 255, 242);
+  
+}        
+#countr{
+  margin:auto;
+  position: initial;
+  top: 10%; left: 44%;
+  border-radius: 0.5rem;
+  color: rgb(0, 255, 242);
+  
+}
